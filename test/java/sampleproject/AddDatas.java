@@ -1,8 +1,10 @@
 package sampleproject;
 
 import java.util.List;
+
 import java.util.Map;
 
+import org.junit.runner.RunWith;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -10,7 +12,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import cucumber.api.junit.Cucumber;
 import io.cucumber.datatable.DataTable;
+
 
 public class AddDatas {
 	static WebDriver driver;
